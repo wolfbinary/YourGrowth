@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52BF8CF9-1870-4D99-8A00-F0F36154FE7A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YourGrowth.DataAccess</RootNamespace>
+    <AssemblyName>YourGrowth.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexts\YourGrowthContext.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070212133_ReferenceTablesAndWorkedTablesInitialCreate.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070212133_ReferenceTablesAndWorkedTablesInitialCreate.Designer.cs">
+      <DependentUpon>201512070212133_ReferenceTablesAndWorkedTablesInitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070222047_RoutineExerciseKey.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070222047_RoutineExerciseKey.Designer.cs">
+      <DependentUpon>201512070222047_RoutineExerciseKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070234293_MuscleExerciseKey.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070234293_MuscleExerciseKey.Designer.cs">
+      <DependentUpon>201512070234293_MuscleExerciseKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070237363_ExerciseWorkedKey.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070237363_ExerciseWorkedKey.Designer.cs">
+      <DependentUpon>201512070237363_ExerciseWorkedKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070245316_ExerciseWorkedKey1.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070245316_ExerciseWorkedKey1.Designer.cs">
+      <DependentUpon>201512070245316_ExerciseWorkedKey1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070255229_RoutineWorkedKey.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512070255229_RoutineWorkedKey.Designer.cs">
+      <DependentUpon>201512070255229_RoutineWorkedKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201512100142533_ExerciseWorkedRestPeriod.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201512100142533_ExerciseWorkedRestPeriod.Designer.cs">
+      <DependentUpon>201512100142533_ExerciseWorkedRestPeriod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.Designer.cs">
+      <DependentUpon>InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\Configuration.cs" />
+    <Compile Include="Models\Exercise.cs" />
+    <Compile Include="Models\ExerciseGroup.cs" />
+    <Compile Include="Models\ExerciseRoutine.cs" />
+    <Compile Include="Models\ExerciseWorked.cs" />
+    <Compile Include="Models\Muscle.cs" />
+    <Compile Include="Models\MuscleExercise.cs" />
+    <Compile Include="Models\RoutineExercise.cs" />
+    <Compile Include="Models\RoutineWorked.cs" />
+    <Compile Include="Models\TypeOfExercise.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512070212133_ReferenceTablesAndWorkedTablesInitialCreate.resx">
+      <DependentUpon>201512070212133_ReferenceTablesAndWorkedTablesInitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512070222047_RoutineExerciseKey.resx">
+      <DependentUpon>201512070222047_RoutineExerciseKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512070234293_MuscleExerciseKey.resx">
+      <DependentUpon>201512070234293_MuscleExerciseKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512070237363_ExerciseWorkedKey.resx">
+      <DependentUpon>201512070237363_ExerciseWorkedKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512070245316_ExerciseWorkedKey1.resx">
+      <DependentUpon>201512070245316_ExerciseWorkedKey1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512070255229_RoutineWorkedKey.resx">
+      <DependentUpon>201512070255229_RoutineWorkedKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512100142533_ExerciseWorkedRestPeriod.resx">
+      <DependentUpon>201512100142533_ExerciseWorkedRestPeriod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\InitialCreate.resx">
+      <DependentUpon>InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

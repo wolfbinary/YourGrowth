@@ -18,5 +18,7 @@ namespace YourGrowth.DataAccess.Models
         [Required]
         public int RoutineProgramId { get; set; }
         public RoutineProgram RoutineProgram { get; set; }
+
+        public int Priority { get; set; }
     }
 }

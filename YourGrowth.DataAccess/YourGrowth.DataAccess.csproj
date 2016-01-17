@@ -90,6 +90,10 @@
     <Compile Include="DataContexts\YourGrowthMigrations\201601171954049_AddWarmupFlagToExerciseRoutineTable.Designer.cs">
       <DependentUpon>201601171954049_AddWarmupFlagToExerciseRoutineTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201601172007549_AddpriorityColumnToExerciseRoutineTable.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201601172007549_AddpriorityColumnToExerciseRoutineTable.Designer.cs">
+      <DependentUpon>201601172007549_AddpriorityColumnToExerciseRoutineTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.cs" />
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.Designer.cs">
       <DependentUpon>InitialCreate.cs</DependentUpon>
@@ -141,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201601171954049_AddWarmupFlagToExerciseRoutineTable.resx">
       <DependentUpon>201601171954049_AddWarmupFlagToExerciseRoutineTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201601172007549_AddpriorityColumnToExerciseRoutineTable.resx">
+      <DependentUpon>201601172007549_AddpriorityColumnToExerciseRoutineTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\InitialCreate.resx">
       <DependentUpon>InitialCreate.cs</DependentUpon>

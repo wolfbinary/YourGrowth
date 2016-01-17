@@ -29,5 +29,7 @@ namespace YourGrowth.DataAccess.Models
 
         //In seconds
         public int RestPeriod { get; set; }
+
+        public bool Active { get; set; }
     }
 }

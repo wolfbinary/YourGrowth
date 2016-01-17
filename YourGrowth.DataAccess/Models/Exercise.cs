@@ -16,5 +16,7 @@ namespace YourGrowth.DataAccess.Models
         public string Name { get; set; }
         public UInt16 GoalReps { get; set; }
         public UInt16 GoalSets { get; set; }
+
+        public bool Active { get; set; }
     }
 }

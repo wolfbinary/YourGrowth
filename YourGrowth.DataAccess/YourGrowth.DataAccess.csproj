@@ -78,6 +78,10 @@
     <Compile Include="DataContexts\YourGrowthMigrations\201512100142533_ExerciseWorkedRestPeriod.Designer.cs">
       <DependentUpon>201512100142533_ExerciseWorkedRestPeriod.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201601171932323_AddActiveFieldToTables.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201601171932323_AddActiveFieldToTables.Designer.cs">
+      <DependentUpon>201601171932323_AddActiveFieldToTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.cs" />
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.Designer.cs">
       <DependentUpon>InitialCreate.cs</DependentUpon>
@@ -119,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201512100142533_ExerciseWorkedRestPeriod.resx">
       <DependentUpon>201512100142533_ExerciseWorkedRestPeriod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201601171932323_AddActiveFieldToTables.resx">
+      <DependentUpon>201601171932323_AddActiveFieldToTables.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\InitialCreate.resx">
       <DependentUpon>InitialCreate.cs</DependentUpon>

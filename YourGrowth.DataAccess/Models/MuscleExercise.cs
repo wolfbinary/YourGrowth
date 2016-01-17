@@ -18,5 +18,7 @@ namespace YourGrowth.DataAccess.Models
         [Required]
         public int MuscleId { get; set; }
         public Muscle Muscle { get; set; }
+
+        public bool Active { get; set; }
     }
 }

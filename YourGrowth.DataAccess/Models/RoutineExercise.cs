@@ -18,5 +18,7 @@ namespace YourGrowth.DataAccess.Models
 
         public int ExerciseGroupId { get; set; }
         public ExerciseGroup ExerciseGroup { get; set; }
+
+        public bool Active { get; set; }
     }
 }

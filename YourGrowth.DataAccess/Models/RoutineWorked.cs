@@ -18,5 +18,7 @@ namespace YourGrowth.DataAccess.Models
 
         [Required]
         public DateTime WorkoutDate { get; set; }
+
+        public bool Active { get; set; }
     }
 }

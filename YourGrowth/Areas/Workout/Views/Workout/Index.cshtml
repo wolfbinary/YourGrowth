@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Workout";
+    Layout = "~/Areas/Workout/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Workout</h2>
+
+<div id="workoutContainer">
+    <div id="exerciseContainer">
+        <span class="h4">Exercise</span>
+        <div id="exerciseFields">
+            <label label-for="exerciseName">Name </label>
+            <span id="exerciseName"></span>
+            <div>
+                <label label-for="exerciseReps">
+                    Number of Reps
+                    <input type="text" id="exerciseReps" class="form-control-static"/>
+                    <button id="moreReps" class="glyphicon glyphicon-arrow-up"></button>
+                    <button id="lessReps" class="glyphicon glyphicon-arrow-down"></button>
+                </label>
+            </div>
+            <div>
+                <label label-for="exercise">
+                    Number of Sets
+                    <input type="text" id="exerciseSets" class="form-control-static" />
+                    <button id="moreReps" class="glyphicon glyphicon-arrow-up"></button>
+                    <button id="lessReps" class="glyphicon glyphicon-arrow-down"></button>
+                </label>
+            </div>
+            <div>
+                <label label-for="chkSkipped">
+                    Skipped
+                    <input type="checkbox" id="chkSkipped"/>
+                </label>
+            </div>
+            <div>
+                <label label-for="chkWarmup">
+                    Warmup
+                    <input type="checkbox" id="chkWarmup"/>
+                </label>
+            </div>
+            <div>
+                <label label-for="txtNotes">
+                    Notes<br/>
+                    <textarea id="txtNotes"></textarea>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>

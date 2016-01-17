@@ -82,6 +82,14 @@
     <Compile Include="DataContexts\YourGrowthMigrations\201601171932323_AddActiveFieldToTables.Designer.cs">
       <DependentUpon>201601171932323_AddActiveFieldToTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201601171947566_AddRoutineProgramTableAndRoutineProgramIdToExerciseRoutineTable.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201601171947566_AddRoutineProgramTableAndRoutineProgramIdToExerciseRoutineTable.Designer.cs">
+      <DependentUpon>201601171947566_AddRoutineProgramTableAndRoutineProgramIdToExerciseRoutineTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201601171954049_AddWarmupFlagToExerciseRoutineTable.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201601171954049_AddWarmupFlagToExerciseRoutineTable.Designer.cs">
+      <DependentUpon>201601171954049_AddWarmupFlagToExerciseRoutineTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.cs" />
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.Designer.cs">
       <DependentUpon>InitialCreate.cs</DependentUpon>
@@ -94,6 +102,7 @@
     <Compile Include="Models\Muscle.cs" />
     <Compile Include="Models\MuscleExercise.cs" />
     <Compile Include="Models\RoutineExercise.cs" />
+    <Compile Include="Models\RoutineProgram.cs" />
     <Compile Include="Models\RoutineWorked.cs" />
     <Compile Include="Models\TypeOfExercise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -126,6 +135,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201601171932323_AddActiveFieldToTables.resx">
       <DependentUpon>201601171932323_AddActiveFieldToTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201601171947566_AddRoutineProgramTableAndRoutineProgramIdToExerciseRoutineTable.resx">
+      <DependentUpon>201601171947566_AddRoutineProgramTableAndRoutineProgramIdToExerciseRoutineTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201601171954049_AddWarmupFlagToExerciseRoutineTable.resx">
+      <DependentUpon>201601171954049_AddWarmupFlagToExerciseRoutineTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\InitialCreate.resx">
       <DependentUpon>InitialCreate.cs</DependentUpon>

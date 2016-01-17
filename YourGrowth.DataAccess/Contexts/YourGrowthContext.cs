@@ -25,6 +25,7 @@ namespace YourGrowth.DataAccess.Contexts
         public DbSet<MuscleExercise> MuscleExercises { get; set; }
         public DbSet<ExerciseWorked> ExercisesWorked { get; set; }
         public DbSet<RoutineWorked> RoutinesWorked { get; set; }
+        public DbSet<RoutineProgram> RoutinePrograms { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

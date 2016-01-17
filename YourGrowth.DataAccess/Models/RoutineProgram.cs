@@ -7,16 +7,14 @@ using System.Threading.Tasks;
 
 namespace YourGrowth.DataAccess.Models
 {
-    public class ExerciseRoutine
+    public class RoutineProgram
     {
         [Required]
-        public long ExerciseRoutineId { get; set; }
+        public int RoutineProgramId { get; set; }
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
+
         public bool Active { get; set; }
-        [Required]
-        public int RoutineProgramId { get; set; }
-        public RoutineProgram RoutineProgram { get; set; }
     }
 }

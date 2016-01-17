@@ -31,5 +31,7 @@ namespace YourGrowth.DataAccess.Models
         public int RestPeriod { get; set; }
 
         public bool Active { get; set; }
+
+        public bool WarmUp { get; set; }
     }
 }

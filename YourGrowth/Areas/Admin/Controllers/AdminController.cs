@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using YourGrowth.Web;
 
 /*
 Menu changes
@@ -44,7 +45,19 @@ namespace YourGrowth.Areas.Admin.Controllers
         // GET: Admin/Admin
         public ActionResult Muscles()
         {
-            return View();
+            var muscles = new List<Muscle>();
+            muscles.Add(new Muscle()
+            {
+                MuscleId = 1,
+                Name = "Chest"
+            });
+
+            muscles.Add(new Muscle()
+            {
+                MuscleId = 2,
+                Name = "Legs"
+            });
+            return View(muscles);
         }
     }
 }

@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YourGrowth.DataAccess.Models
+namespace YourGrowth.Common.Models
 {
-    public class Muscle
+    public class ExerciseGroup
     {
         [Required]
-        public int MuscleId { get; set; }
+        public int ExerciseGroupId { get; set; }
         [Required]
         [StringLength(255)]
         public string Name { get; set; }

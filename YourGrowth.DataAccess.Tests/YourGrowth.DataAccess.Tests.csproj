@@ -63,6 +63,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\YourGrowth.Common\YourGrowth.Common.csproj">
+      <Project>{1935bac7-1478-49f1-b7d0-399545bd6efb}</Project>
+      <Name>YourGrowth.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\YourGrowth.DataAccess\YourGrowth.DataAccess.csproj">
       <Project>{52bf8cf9-1870-4d99-8a00-f0f36154fe7a}</Project>
       <Name>YourGrowth.DataAccess</Name>
@@ -71,6 +75,9 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -184,6 +184,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Models\Muscle.cs" />
+    <Compile Include="Areas\Admin\Models\TypeOfExercise.cs" />
     <Compile Include="Areas\Workout\Controllers\WorkoutController.cs" />
     <Compile Include="Areas\Workout\WorkoutAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -229,10 +231,10 @@
     <Content Include="Areas\Admin\Views\Admin\Routines.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\Exercises.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\Groups.cshtml" />
-    <Content Include="Areas\Admin\Views\Admin\Muscles.cshtml" />
     <Content Include="Areas\Workout\Views\web.config" />
     <Content Include="Areas\Workout\Views\Shared\_MainLayout.cshtml" />
     <Content Include="Areas\Workout\Views\Workout\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Muscles.cshtml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
@@ -288,10 +290,12 @@
     <Content Include="Views\Shared\DisplayTemplates\BootstrapMenuHelperModel.cshtml" />
     <Content Include="Views\Shared\Workout\ExercisePicker.cshtml" />
     <Content Include="Views\Shared\Workout\ExerciseGroupPicker.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Muscle.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Shared\EditorTemplates\" />
     <Folder Include="Areas\Workout\Models\" />
+    <Folder Include="Views\Shared\EditorTemplates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

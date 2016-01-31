@@ -99,16 +99,6 @@
       <DependentUpon>InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="DataContexts\YourGrowthMigrations\Configuration.cs" />
-    <Compile Include="Models\Exercise.cs" />
-    <Compile Include="Models\ExerciseGroup.cs" />
-    <Compile Include="Models\ExerciseRoutine.cs" />
-    <Compile Include="Models\ExerciseWorked.cs" />
-    <Compile Include="Models\Muscle.cs" />
-    <Compile Include="Models\MuscleExercise.cs" />
-    <Compile Include="Models\RoutineExercise.cs" />
-    <Compile Include="Models\RoutineProgram.cs" />
-    <Compile Include="Models\RoutineWorked.cs" />
-    <Compile Include="Models\TypeOfExercise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +142,12 @@
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\InitialCreate.resx">
       <DependentUpon>InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YourGrowth.Common\YourGrowth.Common.csproj">
+      <Project>{1935bac7-1478-49f1-b7d0-399545bd6efb}</Project>
+      <Name>YourGrowth.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

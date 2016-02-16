@@ -291,10 +291,14 @@
     <Content Include="Views\Shared\Workout\ExercisePicker.cshtml" />
     <Content Include="Views\Shared\Workout\ExerciseGroupPicker.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Muscle.cshtml" />
+    <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Admin\Views\Shared\EditorTemplates\" />
     <Folder Include="Areas\Workout\Models\" />
+    <Folder Include="Scripts\custom\Model\" />
+    <Folder Include="Scripts\custom\ViewModels\" />
+    <Folder Include="Scripts\custom\View\" />
     <Folder Include="Views\Shared\EditorTemplates\" />
   </ItemGroup>
   <ItemGroup>

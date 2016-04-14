@@ -1,20 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace YourGrowth.DataAccess.Models
+namespace YourGrowth.Common.Models
 {
-    public class TypeOfExercise
+    public class Exercise
     {
         [Required]
-        public int TypeOfExerciseId { get; set; }
-
+        public long ExerciseId { get; set; }
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
+        public UInt16 GoalReps { get; set; }
+        public UInt16 GoalSets { get; set; }
 
         public bool Active { get; set; }
     }

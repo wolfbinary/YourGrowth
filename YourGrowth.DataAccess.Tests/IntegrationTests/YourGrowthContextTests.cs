@@ -9,9 +9,22 @@ namespace YourGrowth.DataAccess.Tests
         [TestMethod]
         public void TestDatabaseConnectionWorks()
         {
-            var dbContext = new YourGrowthContext();
+            using (var dbContext = new YourGrowthContext())
+            {
 
-            
+                var result = dbContext.Muscles.Find(1);
+
+                Assert.IsNotNull(result);
+            }
         }
+
+        #region Muscle Calls
+        [TestMethod]
+        public void FetchAllMuscles()
+        {
+
+        }
+
+        #endregion
     }
 }

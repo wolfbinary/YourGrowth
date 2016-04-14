@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YourGrowth.DataAccess.Models
+namespace YourGrowth.Common.Models
 {
     public class RoutineExercise
     {

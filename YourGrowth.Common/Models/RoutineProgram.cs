@@ -5,17 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YourGrowth.DataAccess.Models
+namespace YourGrowth.Common.Models
 {
-    public class Exercise
+    public class RoutineProgram
     {
         [Required]
-        public long ExerciseId { get; set; }
+        public int RoutineProgramId { get; set; }
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
-        public UInt16 GoalReps { get; set; }
-        public UInt16 GoalSets { get; set; }
 
         public bool Active { get; set; }
     }

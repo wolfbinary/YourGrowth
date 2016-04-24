@@ -4,6 +4,7 @@ namespace YourGrowth.DataAccess.DataContexts.YourGrowthMigrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<YourGrowth.DataAccess.Contexts.YourGrowthContext>
     {
@@ -31,6 +32,50 @@ namespace YourGrowth.DataAccess.DataContexts.YourGrowthMigrations
             //{
 
             //}
+            context.Muscles.AddOrUpdate(m => m.Name,
+                new Muscle()
+                {
+                    MuscleId = 1,
+                    Name = "Chest",
+                    Active = true
+                },
+                new Muscle()
+                {
+                    MuscleId = 2,
+                    Name = "Bicep",
+                    Active = true
+                },
+                new Muscle()
+                {
+                    MuscleId = 3,
+                    Name = "Tricep",
+                    Active = true
+                },
+                new Muscle()
+                {
+                    MuscleId = 4,
+                    Name = "Shoulders",
+                    Active = true
+                },
+                new Muscle()
+                {
+                    MuscleId = 5,
+                    Name = "Back",
+                    Active = true
+                },
+                new Muscle()
+                {
+                    MuscleId = 6,
+                    Name = "Legs",
+                    Active = true
+                },
+                new Muscle()
+                {
+                    MuscleId = 7,
+                    Name = "Abs",
+                    Active = true
+                }
+                );
         }
     }
 }

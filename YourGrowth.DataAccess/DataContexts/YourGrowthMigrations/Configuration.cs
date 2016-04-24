@@ -4,7 +4,7 @@ namespace YourGrowth.DataAccess.DataContexts.YourGrowthMigrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
-    using Models;
+    using Common.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<YourGrowth.DataAccess.Contexts.YourGrowthContext>
     {

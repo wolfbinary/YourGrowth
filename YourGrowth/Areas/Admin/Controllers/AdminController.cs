@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
-using YourGrowth.Web;
+using YourGrowth.Models;
 
 /*
 Menu changes
@@ -48,13 +45,13 @@ namespace YourGrowth.Areas.Admin.Controllers
             var muscles = new List<Muscle>();
             muscles.Add(new Muscle()
             {
-                MuscleId = 1,
+                Id = 1,
                 Name = "Chest"
             });
 
             muscles.Add(new Muscle()
             {
-                MuscleId = 2,
+                Id = 2,
                 Name = "Legs"
             });
             return View(muscles);

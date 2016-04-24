@@ -236,6 +236,11 @@
     <Content Include="Areas\Workout\Views\Shared\_MainLayout.cshtml" />
     <Content Include="Areas\Workout\Views\Workout\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\Muscles.cshtml" />
+    <None Include=".bin\bower.cmd" />
+    <None Include=".bin\git.cmd" />
+    <None Include=".bin\node.cmd" />
+    <Content Include=".bowerrc" />
+    <Content Include="bower.json" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />

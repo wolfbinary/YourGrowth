@@ -94,6 +94,10 @@
     <Compile Include="DataContexts\YourGrowthMigrations\201601172007549_AddpriorityColumnToExerciseRoutineTable.Designer.cs">
       <DependentUpon>201601172007549_AddpriorityColumnToExerciseRoutineTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataContexts\YourGrowthMigrations\201605280112444_PriorityAndGoalSettingColumns.cs" />
+    <Compile Include="DataContexts\YourGrowthMigrations\201605280112444_PriorityAndGoalSettingColumns.Designer.cs">
+      <DependentUpon>201605280112444_PriorityAndGoalSettingColumns.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.cs" />
     <Compile Include="DataContexts\YourGrowthMigrations\InitialCreate.Designer.cs">
       <DependentUpon>InitialCreate.cs</DependentUpon>
@@ -138,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201601172007549_AddpriorityColumnToExerciseRoutineTable.resx">
       <DependentUpon>201601172007549_AddpriorityColumnToExerciseRoutineTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\YourGrowthMigrations\201605280112444_PriorityAndGoalSettingColumns.resx">
+      <DependentUpon>201605280112444_PriorityAndGoalSettingColumns.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataContexts\YourGrowthMigrations\InitialCreate.resx">
       <DependentUpon>InitialCreate.cs</DependentUpon>

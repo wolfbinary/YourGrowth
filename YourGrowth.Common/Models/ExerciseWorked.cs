@@ -33,5 +33,6 @@ namespace YourGrowth.Common.Models
         public bool Active { get; set; }
 
         public bool WarmUp { get; set; }
+        public int NumberOfTimes { get; set; }
     }
 }

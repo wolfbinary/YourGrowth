@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourGrowth.Web", "YourGrowth\YourGrowth.Web.csproj", "{CA395DAE-2668-4E1B-9F63-7AE53540BA59}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourGrowth.DataAccess.Tests", "YourGrowth.DataAccess.Tests\YourGrowth.DataAccess.Tests.csproj", "{8B9C4B87-4046-4411-BF7C-3D3A56F48212}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourGrowth.Models", "YourGrowth.Models\YourGrowth.Models.csproj", "{5657B8D7-4503-4F3A-B171-476FB6322A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourGrowth.Common", "YourGrowth.Common\YourGrowth.Common.csproj", "{1935BAC7-1478-49F1-B7D0-399545BD6EFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{5657B8D7-4503-4F3A-B171-476FB6322A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5657B8D7-4503-4F3A-B171-476FB6322A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5657B8D7-4503-4F3A-B171-476FB6322A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1935BAC7-1478-49F1-B7D0-399545BD6EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1935BAC7-1478-49F1-B7D0-399545BD6EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1935BAC7-1478-49F1-B7D0-399545BD6EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1935BAC7-1478-49F1-B7D0-399545BD6EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

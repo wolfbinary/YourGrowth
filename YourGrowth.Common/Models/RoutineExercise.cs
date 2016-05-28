@@ -20,5 +20,10 @@ namespace YourGrowth.Common.Models
         public ExerciseGroup ExerciseGroup { get; set; }
 
         public bool Active { get; set; }
+
+        public int Priority { get; set; }
+        public int NumberOfTimes { get; set; }
+        public int GoalReps { get; set; }
+        public int GoalSets { get; set; }
     }
 }

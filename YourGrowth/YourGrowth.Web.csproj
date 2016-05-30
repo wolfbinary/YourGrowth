@@ -207,7 +207,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\MusclesDropDown.cshtml" />
     <Content Include="App_Data\YourGrowth.mdf" />
     <Content Include="App_Data\YourGrowth_log.ldf">
       <DependentUpon>YourGrowth.mdf</DependentUpon>
@@ -294,8 +293,13 @@
     <Content Include="Views\Shared\Workout\ExerciseGroupPicker.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Workout\Models\" />
+    <Folder Include="Scripts\app\" />
+    <Folder Include="Scripts\dal\" />
+    <Folder Include="Scripts\ui\" />
+    <Folder Include="Scripts\vm\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -207,11 +207,24 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".bowerrc" />
     <Content Include="App_Data\YourGrowth.mdf" />
     <Content Include="App_Data\YourGrowth_log.ldf">
       <DependentUpon>YourGrowth.mdf</DependentUpon>
     </Content>
     <Content Include="Areas\Admin\Views\Shared\_MainLayout.cshtml" />
+    <Content Include="bower.json" />
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bower_components\jquery-validation\src\core.js" />
+    <Content Include="bower_components\modernizr\modernizr.js" />
+    <Content Include="bower_components\respond\dest\respond.matchmedia.addListener.min.js" />
+    <Content Include="bower_components\respond\dest\respond.matchmedia.addListener.src.js" />
+    <Content Include="bower_components\respond\dest\respond.min.js" />
+    <Content Include="bower_components\respond\dest\respond.src.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\dist\css\app.css" />
     <Content Include="Content\dist\css\app.min.css" />
     <Content Include="Content\dist\fonts\glyphicons-halflings-regular.svg" />
@@ -249,9 +262,9 @@
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="gulpfile.js" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Muscles\Muscles.cshtml" />
@@ -265,8 +278,26 @@
     <Content Include="Areas\Workout\Views\Shared\_MainLayout.cshtml" />
     <Content Include="Areas\Workout\Views\Workout\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\Muscles.cshtml" />
+    <Content Include="gulpfile.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="package.json" />
+    <Content Include="wwwroot\lib\requirejs\.bower.json" />
+    <Content Include="wwwroot\lib\requirejs\bower.json" />
+    <Content Include="wwwroot\lib\requirejs\README.md" />
+    <Content Include="wwwroot\lib\requirejs\require.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

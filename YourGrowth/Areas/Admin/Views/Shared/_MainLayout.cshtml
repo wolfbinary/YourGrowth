@@ -3,14 +3,16 @@
     ViewBag.Title = "Administration";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-        <li>@Html.ActionLink("Programs", "Programs", "Admin")</li>
-        <li>@Html.ActionLink("Routines", "Routines", "Admin")</li>
-        <li>@Html.ActionLink("Exercises", "Exercies", "Admin")</li>
-        <li>@Html.ActionLink("Groups", "Groups", "Admin")</li>
-        <li>@Html.ActionLink("Muscles", "Muscles", "Admin")</li>
-    </ul>
+<div class="row">
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Programs", "Programs", "Admin")</li>
+            <li>@Html.ActionLink("Routines", "Routines", "Admin")</li>
+            <li>@Html.ActionLink("Exercises", "Exercies", "Admin")</li>
+            <li>@Html.ActionLink("Groups", "Groups", "Admin")</li>
+            <li>@Html.ActionLink("Muscles", "Muscles", "Admin")</li>
+        </ul>
+    </div>
 </div>
 
 @RenderBody()

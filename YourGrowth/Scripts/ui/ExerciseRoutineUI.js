@@ -7,5 +7,5 @@ var ExerciseRoutinesUI = (function () {
         }).disableSelection();
     };
     return ExerciseRoutinesUI;
-}());
+})();
 //# sourceMappingURL=ExerciseRoutineUI.js.map

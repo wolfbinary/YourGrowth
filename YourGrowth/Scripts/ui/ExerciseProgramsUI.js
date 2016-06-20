@@ -7,5 +7,5 @@ var ExerciseProgramsUI = (function () {
         }).disableSelection();
     };
     return ExerciseProgramsUI;
-}());
+})();
 //# sourceMappingURL=ExerciseProgramsUI.js.map

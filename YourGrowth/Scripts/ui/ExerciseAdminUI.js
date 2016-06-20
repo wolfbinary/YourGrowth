@@ -7,5 +7,5 @@ var ExerciseAdminUI = (function () {
         ExerciseRoutinesUI.initializeTab();
     };
     return ExerciseAdminUI;
-}());
+})();
 //# sourceMappingURL=ExerciseAdminUI.js.map

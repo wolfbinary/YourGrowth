@@ -214,7 +214,7 @@
     <Content Include="App_Data\YourGrowth_log.ldf">
       <DependentUpon>YourGrowth.mdf</DependentUpon>
     </Content>
-    <Content Include="Areas\Admin\Views\Shared\_MainLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_MainLayout2.cshtml" />
     <Content Include="bower.json" />
     <Content Include="bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="bower_components\jquery-validation\src\core.js" />
@@ -300,6 +300,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Areas\Admin\Views\Admin\Routines.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

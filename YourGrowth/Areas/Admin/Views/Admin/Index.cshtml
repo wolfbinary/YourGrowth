@@ -3,6 +3,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
+
 @*<div style="padding-top:15px;">
     <div class="row">
         <ul class="nav nav-tabs">
@@ -15,5 +16,8 @@
     </div>
 </div>*@
 
-@Html.Partial("~/Areas/Admin/Views/Admin/Routines.cshtml")
+@Html.Partial("~/Areas/Admin/Views/Admin/Programs.cshtml")
 
+<script>
+    ExerciseRoutinesUI.initializeTab();
+</script>

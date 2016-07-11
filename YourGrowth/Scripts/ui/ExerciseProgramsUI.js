@@ -1,3 +1,4 @@
+/// <reference path="../typings/jquery/jquery.d.ts" />
 var ExerciseProgramsUI = (function () {
     function ExerciseProgramsUI() {
     }
@@ -8,4 +9,3 @@ var ExerciseProgramsUI = (function () {
     };
     return ExerciseProgramsUI;
 })();
-//# sourceMappingURL=ExerciseProgramsUI.js.map

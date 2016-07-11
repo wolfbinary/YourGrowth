@@ -8,4 +8,3 @@ var ExerciseRoutinesUI = (function () {
     };
     return ExerciseRoutinesUI;
 })();
-//# sourceMappingURL=ExerciseRoutineUI.js.map

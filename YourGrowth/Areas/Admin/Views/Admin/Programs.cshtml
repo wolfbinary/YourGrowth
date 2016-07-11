@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Routines";
+    //Layout = "~/Areas/Admin/Views/Shared/_MainLayout.cshtml";
+}
+<script src="~/Scripts/ui/ExerciseRoutineUI.js"></script>
+<div id="adminExerciseProgramsTab">
+    <div class="form-group">
+        <div class="row">
+            <label for="adminExerciseProgramName" class="col-sm-2 control-label">Exercise Program</label>
+            <input type="textbox" name="adminExerciseProgramName" id="adminExerciseProgramName" class="">
+            <select id="adminExercisePrograms">
+                <option value="-1">New*</option>
+            </select>
+        </div>
+    </div>
+    <div style="overflow:hidden;">
+        <div id="adminExerciseProgramSelections" style="min-width:300px;float:left;">
+            <label for="adminRoutinesToUse">Routines</label>
+            <ul id="adminRoutinesToUse" class="connectedSortable">
+                <li class="ui-state-default">Rt 1</li>
+                <li class="ui-state-default">Rt 2</li>
+                <li class="ui-state-default">Rt 3</li>
+                <li class="ui-state-default">Rt 4</li>
+                <li class="ui-state-default">Rt 5</li>
+            </ul>
+        </div>
+
+        <div id="adminExerciseIncluded" style="overflow:hidden;">
+            <label for="adminRoutinesUsed" class="control-label">Included</label>
+            <ul id="adminRoutinesUsed" class="connectedSortable"></ul>
+        </div>
+    </div>
+    <div class="checkbox-inline">
+        <label for="exerciseRoutineEnabledByDefault">
+            <input id="exerciseRoutineEnabledByDefault" type="checkbox" checked class="">Enabled (by default)
+        </label>
+    </div>
+</div>
+
+<script>
+    ExerciseRoutinesUI.initializeTab();
+</script>
